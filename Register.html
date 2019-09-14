@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login to Chat App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bod" style="align-items: center">
+
+  <h1>CHAT APP</h1>
+  <h2>Welcome to Chat App</h2>
+  <br>
+  <br>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-auth.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+  https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+  apiKey: "AIzaSyAEPCrrh50A9t2mzjsxtoEyMq9SlErQC-A",
+  authDomain: "chat-app-9dba9.firebaseapp.com",
+  databaseURL: "https://chat-app-9dba9.firebaseio.com",
+  projectId: "chat-app-9dba9",
+  storageBucket: "",
+  messagingSenderId: "188920021619",
+  appId: "1:188920021619:web:90949db82e43f2fe"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+  <script src="main.js"></script>   
+
+  <div id="lcontainer">
+      <h3>Register Here</h3>
+      <input type="text" id="name" class="form-control" placeholder="Enter your Name">
+      <input type="text" id="phno" class="form-control" placeholder="Enter Phone Number">
+      <input type="text" id="uname" class="form-control" placeholder="Enter a Username">
+      <input type="text" id="mail" class="form-control" placeholder="Enter your E-mail">
+      <button id="rbtn" class="btn btn-light" type="button" onclick="register()"><h6>Sign Up</h6></button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+#display{
+    justify-content: center;
+    background-color: rgb(250, 111, 111);
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    text-overflow: ellipsis;
+}
+
+#display1{
+    justify-content: center;
+    background-color: rgb(247, 14, 14);
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    text-overflow: ellipsis;
+}
+
+#sendbtn{
+    color: blue;
+    background-color: rgb(125, 255, 4);
+    width: 20%;
+    margin: 10px;
+    height: 30px;
+}
+
+#container{
+    align-self: stretch;
+    background-color: royalblue;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    height: fit-content;
+    border-radius: 20px;
+    margin-left: 25%;
+}
+
+#lcontainer{
+    align-self: stretch;
+    background-color: royalblue;
+    justify-content: center;
+    text-align: center;
+    width: 30vw;
+    height: fit-content;
+    border-radius: 20px;
+    margin-left: 35%;
+}
+
+#lbtn{
+    margin-bottom: 20px;
+}
+
+
+#container1{
+    align-self: stretch;
+    text-align: center;
+    background-color: royalblue;
+    justify-content: center;
+    width: 50vw;
+    height: fit-content;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+#messagebox{
+    margin-left: 10%;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+}
+
+#uname{
+    margin-left: 5%;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+}
+
+#mail{
+    margin-left: 5%;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#messagebox1{
+    margin-left: 10%;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+}
+
+#bod{
+    background-color: black;
+    text-align: center;
+    color: blanchedalmond;
+}
